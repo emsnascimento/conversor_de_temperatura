@@ -1,3 +1,3 @@
-# web-platform-wpddt8
+# Conversor de Temperatura
 
-[Edit on StackBlitz ⚡️](https://stackblitz.com/edit/web-platform-wpddt8)
+[Converta já!](https://converte-temperatura.vercel.app/)
