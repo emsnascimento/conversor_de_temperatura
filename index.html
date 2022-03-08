@@ -1,11 +1,51 @@
-<html>
+<html lang="pt-BR">
   <head>
-    <meta charset="UTF-8">
-    <script src="script.js"></script>
-    <!-- <link rel="stylesheet" type="text/css" href="styles.css"> -->
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Imersão Dev Alura - Aula 01</title>
+    <link rel="stylesheet" href="./styles.css" />
   </head>
   <body>
-    <h1>Hello there!</h1>
-    <a href="/me.html">My other page</a>
+
+    <div class="container">
+      <h1 class="page-title">Conversor de Temperatura</h1>
+      <p title="hello" class="page-subtitle">Celsius Fahrenheit </p>
+      <br>
+
+      <div
+      <form>
+        <fieldset class="agrupamento"> 
+         <div class="campo">
+          <label class="text-color" for="celsius"><strong>Celsius</strong></label>
+          <input placeholder="Celsius" type="number" name="celsius" id="celsius" required>
+         </div>
+
+          <div class="campo">
+          <label class="text-color" for="fahrenheit"><strong>Fahrenheit</strong></label>
+         <input placeholder="Fahrenheit" type="number" name="fahrenheit" id="fahrenheit" required>
+         </div>
+        </fieldset>
+        
+       <button class="botao" type="submit" onsubmit="">OK</button>
+  </form>
+  <br>
+  <br>
+
+  />
+  <img
+    src="https://www.alura.com.br/assets/img/imersoes/dev-2021/logo-imersao-conversor-de-moedas.svg"
+    class="page-logo"
+    alt=""
+  />
+
+  <a href="https://alura.com.br/" target="_blank">
+    <img
+        src="https://www.alura.com.br/assets/img/home/alura-logo.svg"
+        alt=""
+        class="alura-logo"
+      />
+    </a>
+    <script src="./script.js"></script>
   </body>
 </html>
